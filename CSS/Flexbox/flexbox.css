@@ -1,0 +1,42 @@
+.flex-container {
+
+    background-color: blueviolet;
+    display: flex;
+
+}
+
+.vertical {
+    flex-direction: column;
+
+}
+
+.horizontal {
+
+    justify-content: flex-end;
+    justify-content: space-around;
+
+}
+
+.cruzado {
+    /*justify content alinea en el eje principal */
+    height: 300px;
+    justify-content: center;
+    /*align items alinea en el eje cruzado*/
+    align-items:center
+justify-content: space-between;
+}
+
+.flex-container div {
+
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cruzado div {
+
+    height: 20%;
+
+}

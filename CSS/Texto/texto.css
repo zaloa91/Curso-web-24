@@ -1,0 +1,166 @@
+#color {
+    background-color: grey;
+    color: blue;
+    border: 3px solid;
+}
+
+#color h2 {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+#color div {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#mal {
+    background-color: crimson;
+    color: fuchsia;
+}
+
+#alinear,
+#deco,
+#transformar,
+#sombras {
+    border: 3px solid black;
+
+}
+
+#alinear p {
+    text-align: left;
+}
+
+#alinear p+p {
+    text-align: right;
+
+}
+
+#alinear p+p+p {
+    text-align: center;
+
+}
+
+#alinear p+p+p+p {
+    text-align: justify;
+
+}
+
+#invertido {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+
+code {
+    background-color: rgb(45, 44, 44);
+    color: rgb(154, 215, 233);
+}
+
+
+#deco h2 {
+    text-decoration: line-through;
+    text-decoration-color: crimson;
+}
+
+#deco h3 {
+    text-decoration: overline;
+    text-decoration-thickness: 8px;
+}
+
+#deco h4 {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+#deco p {
+    text-decoration: overline underline;
+    text-decoration-style: dashed;
+}
+
+
+#deco-a {
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 4px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#transformar p {
+    text-transform: uppercase;
+}
+
+
+#transformar p+p {
+    text-transform: lowercase;
+}
+
+#transformar p+p+p {
+    text-transform: capitalize
+}
+
+#indentar {
+    text-indent: 50px;
+}
+
+#espaciado1 {
+    letter-spacing: 5px;
+}
+
+#espaciado2 {
+    letter-spacing: -2px;
+}
+
+#altura p+p {
+    line-height: 0.6;
+    background-color: lightblue;
+}
+
+#altura p:last-child {
+    line-height: 1.8;
+    background-color: lightblue;
+}
+
+#separacionpalabras p+p {
+    background-color: lightblue;
+    word-spacing: -3px;
+}
+
+#sombras h2:first-child {
+    text-shadow: 2px 2px;
+    /* Primer valor horizontal y el segundo vertical. Para la izquierda en minus. */
+}
+
+#sombras h2:nth-child(2) {
+    text-shadow: 2px 2px crimson;
+}
+
+#sombras h2:nth-child(3) {
+    text-shadow: 2px 2px 4px crimson;
+}
+
+#sombras h2:nth-child(5) {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#sombras h2:nth-child(7) {
+    text-shadow: 0 0 3px red;
+}
+
+
+#sombras h2:nth-child(9) {
+    text-shadow: 0 0 5px purple, 0 0 5px crimson;
+}
+
+#sombras h2:nth-child(9) {
+    text-shadow: 0 0 5px purple, 0 0 5px crimson;
+}
+
+#sombras h2:last-child{
+    color: white;
+    text-shadow: 1px 1px black, 0 0 25px blue, 0 0 5px darkblue;
+}

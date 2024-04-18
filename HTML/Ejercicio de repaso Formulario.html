@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica formulario</title>
+</head>
+<!--SOLO SELECCIONAR UNA OPCION EN RADIUS-->
+
+<body>
+    <h1>Formulario de reserva</h1>
+    <form action="">
+        <label for="">Trataiento</label>
+        <select name="tmt" id="tmt">
+            <option value="mr">Mr</option>
+            <option value="ms">Ms</option>
+            <option value="mrs">Mrs</option>
+        </select>
+        <br><br>
+
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <br><br>
+        <label for="">Correco electronico</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="">Telefono</label>
+        <input type="tel" name="telefono" id="telefono"><br><br>
+
+        <p>Seleccione tipo de habitacion;</p>
+        <input type="radio" name="tipo" id="habitacion" value="individual">
+        <label for="">Individual</label>
+        <br>
+
+        <input type="radio" name="tipo" id="casa" value="casa">
+        <label for="">Doble</label>
+        <br>
+
+        <input type="radio" name="tipo" id="chalet" value="chalet">
+        <label for="">Triple</label>
+
+
+        <p>Seleccione los extras qeu desee encontrar</p>
+        <input type="checkbox" name="extra1" id="extra1" value="lavanderia">
+        <label for="extra1">Lavanderia</label>
+        <br>
+        <input type="checkbox" name="extra2" id="extra2" value="cena">
+        <label for="extra2">Cena</label>
+        <br>
+        <input type="checkbox" name="extra3" id="extra3" value="minibar">
+        <label for="extra3">Minibar</label>
+
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+div, div * {
+    border: 1px solid black;
+}
+
+div p{
+background-color: yellow;
+height: 20px;
+}
+
+div>p{
+    background-color: limegreen;
+    min-height: 100px;
+}
+
+div>p>p {
+    background-color: red;
+    height: 50px;
+    
+}
+
+div h5{
+background-color: orange;
+/*height: 25px;*/
+
+}
+
+div span{
+    background-color: dodgerblue;
+    height: 20px;
+    display: block;
+}

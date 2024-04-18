@@ -1,0 +1,38 @@
+#site-header {
+    background-color: black;
+    margin: 2px;
+    padding-top: 1px;
+    padding-left: 2%;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#navegador ul {
+    display: flex;
+}
+
+#navegador li {
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    margin: 5px;
+
+
+}
+
+
+#navegador ul li a {
+    background-color: darkcyan;
+    padding: 10px 20px;
+    color: aliceblue
+    
+}
+
+#site-header img {
+    margin: 5px;
+
+}

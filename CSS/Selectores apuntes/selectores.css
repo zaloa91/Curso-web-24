@@ -1,0 +1,58 @@
+/*Selectores simples*/
+button {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+#btn1 {
+    background-color: crimson;
+    border-radius: 4px;
+}
+
+.grupo-btn {
+background-color: forestgreen;
+border-radius: 50%;
+
+}
+
+*{
+    font-family: 'Segoe UI'
+    
+}
+
+h4,h5,h6 {
+text-align: center;
+border: 1px dashed black;
+}
+
+/*Selectores combinadores */
+
+div p{
+/*Este selector hace referencia a todos los parrafos que esten dentro de un div*/
+background-color: dodgerblue;
+color: white;
+}
+
+div>span{
+    background-color: darkmagenta;
+    color: white;
+}
+
+h5 + p {
+background-color: hotpink;
+
+}
+
+
+div h6 ~ p {
+    background-color: tomato;
+}
+
+
+
+footer{
+    height: 150px;
+    
+    }

@@ -1,0 +1,48 @@
+div{
+text-align: center;
+padding: 25px;
+
+}
+
+#todos{
+    border: solid black 5px;
+    margin: 10PX;
+}
+#abajo{
+    border-bottom: solid red 5px;
+    margin: 10PX;
+}
+
+#redondeado{
+    border: solid black;
+    border-radius: 50px;
+    margin: 10PX;
+}
+
+#azul-izquierdo{
+    border-left: solid blue 5px;
+}
+
+
+h2~div {
+border: 5px solid red;
+margin: 25px;
+
+}
+
+#dotted {border-style: dotted;}
+#dashed {border-style: dashed;}
+#double {border-style: double;}
+#groove {border-style: groove;}
+#ridge {border-style: ridge;}
+#inset {border-style: inset;}
+#outset {border-style: outset;}
+#none {border-style: none;}
+#hidden {border-style: hidden;}
+#mix {border-style: mix;}
+
+#width{
+    border-width: 25px 10px 4px 35px;
+    /* ARRIBA - DERECHA - ABAJO - IZQUIERDA */
+    border-color: black red blue green;
+}

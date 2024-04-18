@@ -1,0 +1,17 @@
+#site-main {
+width: 10px;  
+}
+
+#site-main>div {
+    display: flex;
+    height: 90vh;
+
+}
+
+#site-main div p {
+    background-color: black;
+    display: flex;
+    width: 50px;
+    color: green;
+    height: 500px;
+}

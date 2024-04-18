@@ -1,0 +1,13 @@
+.ejemplos {
+    max-width: 600px;
+    margin: 50px;
+    padding: 20px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: solid black;
+}

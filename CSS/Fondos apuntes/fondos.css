@@ -1,0 +1,67 @@
+/* Poner un colo de fondo en toda la página */
+body {
+    background-color: lightgrey;
+}
+
+h1+div{
+    background-color: lightskyblue;
+}
+
+div p{
+    background-color: tomato;
+}
+
+
+#opacidad div {
+    text-align: center;
+    padding: 25px;
+    background-color: green;
+}
+
+#opacidad div+div{
+    opacity: 0.7;
+}
+
+#opacidad div+div+div{
+    opacity: 0.35;
+}
+
+#opacidad div + div+div+div{
+    opacity: 0.1;
+}
+
+#opacidad-rgb{
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(255, 180, 250, 0.5);
+}
+
+/* Imagen de fondo */
+#imagen {
+    height: 200px;
+    /* Definir fuente de la imagen */
+    background-image: url(https://m.media-amazon.com/images/I/91upEAkiaCL.png);
+
+/* Parametros de la imagen */
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+
+#imagen-pegada {
+    height: 500px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/280px-Full_Moon_Luc_Viatour.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    #imagen-pegada2 {
+        margin-top: 100px;
+        height: 500px;
+        background-image: url(https://hips.hearstapps.com/hmg-prod/images/ubiko-la-can-ada-20-1656326441.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        }

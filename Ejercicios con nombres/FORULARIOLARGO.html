@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+</head>
+
+<body>
+    <h2>Completa el formulario</h2>
+    <form>
+        <label for="Nombre">*Nombre</label>
+        <input type="text" required maxlength="10">
+        <br><br>
+        <label for="DNI">*DNI</label>
+        <input type="text" required pattern="[0-9]{8}[A-Za-z]"
+            title="Introduce un DNI válido (8 dígitos seguidos de una letra).">
+        <br><br>
+        <label for="tel">*Teléfono</label>
+        <input type="tel" required name="tlfn" id="tlfn" pattern="[0-9]{9}"
+            title="Introduce un número de teléfono válido de 9 dígitos.">
+        <br><br>
+
+
+
+        <fieldset>
+            <legend>Género</legend>
+
+            <input type="radio" name="masculino" id="genero">
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" name="femenino" id="genero">
+            <label for="femenino">Femenino</label>
+
+        </fieldset>
+
+        <p>Intereses:</p>
+
+
+        <input type="checkbox" name="Intereses" id="deporte">
+        <label for="deporte">Deporte</label>
+        <br>
+        <input type="checkbox" name="Intereses" id="musica">
+        <label for="musica">Música</label>
+        <br>
+        <input type="checkbox" name="Intereses" id="lectura">
+        <label for="lectura">Lectura</label>
+        <br>
+        <p>Seleccione un archivo:</p>
+        <input type="file" name="archivos" id="archivos">
+        <label for="archivos"></label>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <br><br>
+        <label for="consulta">Sugerencias:</label>
+        <textarea name="consulta" id="consulta" cols="60" rows="10"></textarea>
+
+    </form>
+</body>
+
+</html>
