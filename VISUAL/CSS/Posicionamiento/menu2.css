@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0px;
+}
+
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    background-color:coral;
+    height: 600px;
+    width: 800px;
+}
+
+menu{
+    height: 15%;
+}
+
+.contenedor{
+    height: 85%;
+}
+
+img{
+    width: 50%;
+    /* el tamaño hace referencia al contenedor no a la pantalla */
+}
+
+
+form{
+    width: 220px;
+    height: 300px;
+    background-color: lightpink;
+}
+
+form input{
+    display: block;
+    margin: 15px;
+
+}
+
+.contenedor{
+    position: relative;
+}
+
+.contenedor img {
+    position: absolute;
+   left: 20%;
+}
+
+
+.contenedor form {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}

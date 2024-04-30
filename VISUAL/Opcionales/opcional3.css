@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: 0px;
+
+}
+
+#site-main {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Wrap me manda los divs sobrantes abajo, como tenemos los blancos ocupando entre los 3 el ancho de la pantalla, nos manda el negro abajo. */
+    
+ 
+
+}
+
+#site-main div {
+    background-color: white;
+    /* 25% porque no ocupan todo el ancho del contenedor si no que no están centrados dejando un espacio sobrante en los bordes del contenedor. */
+    width: 25%;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+#site-main .ancho {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+
+
+
+
+/* 
+
+
+#site-main{
+    background-color: crimson;
+    display: flex;
+    
+
+}
+
+#site-main div{
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 40px;
+
+}
+
+
+#site-main .ancho{
+    background-color: black;
+    color: white;
+}  */

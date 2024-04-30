@@ -1,0 +1,35 @@
+.contenedor{
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.contenedor :first-child{
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+
+}
+
+.contenedor :nth-child(2){
+    background-color: green;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
+.contenedor :nth-child(3){
+    background-color: crimson;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    left: 25px;
+
+}

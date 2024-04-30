@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#site-nav {
+    position: relative;
+    background-color: rgb(110, 202, 202);
+}
+
+#site-nav>ul {
+    display: flex;
+
+
+}
+
+#site-nav a {
+    display: flex;
+    display: inline-block;
+    padding: 21px;
+
+}
+
+#site-nav>ul>li>ul{
+    position: absolute;
+    right: 0px;
+    background-color: lightgreen;
+    width: 100%; 
+    text-align: center;
+    /* ocupa lo mismo que su padre el nav */
+}

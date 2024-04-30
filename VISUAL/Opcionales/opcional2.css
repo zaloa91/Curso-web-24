@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+#site-main{
+    background-color: crimson;
+    display: flex;
+}
+
+
+#site-main div{
+
+    background-color: white;
+    border-radius: 10%;
+    margin: 20px;
+    padding: 25px;
+}

@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+#site-header {
+    background-color: limegreen;
+}
+
+#site-header nav ul {
+    text-align: center;
+    padding: 20px;
+
+}
+
+#site-header nav ul li a {
+    color: white;
+    display: flex;
+    display: block;
+
+}
+
+#site-header li a:hover {
+    background-color: darkgreen;
+    color: yellow;
+
+
+}
+
+#site-header li a {
+    padding: 20px;
+
+}
+
+/* #site-header nav ul{
+    display: flex;
+} a la ul le digo que se queden juntitos */
+
+@media (min-width: 1024px) {
+
+    #site-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #site-header nav ul {
+        display: flex;
+    }
+
+
+}
