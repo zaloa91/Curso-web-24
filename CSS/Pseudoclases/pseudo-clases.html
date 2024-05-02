@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-clases</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="pseudo-clases.css">
+</head>
+
+<body>
+    <h1>Pseudo-clases de CSS</h1>
+    <p>Una pseudo-clase se usa para definir un estado especial de un elemento.</p>
+    <p>Ejemplos: </p>
+    <ul>
+        <li>Estilizar un elemetento cuando pasamos el ratón por encima de este.</li>
+        <li>Estilizar los links visitados y sin visitar de forma diferente.</li>
+        <li>Estilizar un element cuando obtiene el foco.</li>
+    </ul>
+
+    <h2>Diferentes estados de los links:</h2>
+    <a href="www.google.es" class="ejemplo-link">Esto es un link</a>
+    <p>Un link tiene 4 estados distintos: link (por efecto, sin visitar), hover (cuando pasamos el cursor por encima) y
+        active (en el momentoen el que estamos clicando sobre el link.)</p>
+    <p>a:hover debe ir después de a:link y a:visited para poder ser efectivo.</p>
+    <p>a:active debe ir después de a:hover para poder ser efectivo.</p>
+
+    <hr>
+    <h2>Ejemplos de uso</h2>
+    <h3>Hacer hover sobre un div</h3>
+    <div class="ejemplo-div">
+        Pasa el cursor sobre mí .
+
+    </div>
+
+    <p>Hola</p>
+    <h3>Hacer aparecer un ToolTip cuando hacemos hover sobre un elemento.</h3>
+
+    <div class="ejemplo-tooltip">
+        Pasa el cursor sobre este elemento para hacer aparecer a la p.
+        <p>Tachán! Aqui estoy.</p>
+
+    </div>
+</body>
+<footer></footer>
+</html>
