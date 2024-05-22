@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#site-header {
+    background-color: pink;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    color: purple;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 1px 1px black, 0 0 25px white, 0 0 5px white;
+}
+
+#site-header p {
+    text-align: center;
+    padding: 20px;
+}
+
+#site-menu {
+    box-sizing: border-box;
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.7;
+
+}
+
+#site-menu div {
+    display: flex;
+
+
+}
+
+#site-menu a {
+    display: block;
+    padding: 10px;
+    color: white;
+
+}
+
+#site-menu a:hover {
+    background-color: fuchsia;
+}
+
+#site-menu div span {
+    background-color: rgb(211, 33, 63);
+}
+
+#columnas {
+    display: flex;
+    color: black;
+    text-align: justify;
+}
+
+
+
+#columnas .izquierda {
+    width: 50%;
+box-sizing: border-box;
+
+}
+
+#columnas .derecha {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#columnas .izquierda p:first-child{
+    background-color: aqua;
+    padding: 20px;
+}
+
+#columnas .izquierda p:nth-child(2){
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+
+#columnas .izquierda p:nth-child(3){
+    background-color: greenyellow;
+    padding: 20px;
+}
+
+#columnas .izquierda p:last-child{
+    background-color: turquoise;
+    padding: 20px;
+}
+
+
+#columnas .derecha p:first-child{
+    background-color: turquoise;
+    padding: 20px;
+}
+
+#columnas .derecha p:nth-child(2){
+    background-color: greenyellow;
+    padding: 20px;
+}
+
+#columnas .derecha p:nth-child(3){
+    background-color: pink;
+    padding: 20px;
+}
+
+#columnas .derecha p:last-child{
+    background-color: powderblue;
+    padding: 20px;
+}
+

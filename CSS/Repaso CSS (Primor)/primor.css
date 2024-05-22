@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: brown;
+}
+
+
+#site-header{
+    background-color: black;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+#site-header nav a{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+
+#site-header nav a:hover{
+    border-bottom: 2px solid red;
+}
+
+
+#site-header nav ul>li>ul{
+    background-color: rgb(255, 255, 255);
+}
+
+
+#site-header nav ul>li>ul a{
+    color: black;
+    border: 2px solid white;
+}
+
+
+#site-header nav ul>li>ul{
+    display: none;
+}
+
+
+#site-header nav ul>li:nth-child(3):hover>ul{
+    display: block;
+}
+
+
+@media (min-width:1024px){
+
+
+#site-header nav>ul{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+
+#site-header nav ul>li:nth-child(3):hover>ul{
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        right: 0;
+        display: flex;
+        padding: 20px 0;
+    }
+
+
+#site-header nav ul>li:nth-child(3):hover>ul>li>ul{
+    display: block;
+    }
+
+
+#site-header nav ul>li:nth-child(3):hover>ul>li>ul a{
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+    }
+
+
+#site-header nav ul>li:nth-child(3):hover>ul>li>ul>li:hover a{
+    text-decoration: underline;
+    color: red;
+    }
+}
+
+
+
+@media (min-width: 1024px){
+    *{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+
+
+    body{
+        background-color: brown;
+    }
+
+
+    #site-header{
+        background-color: black;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+
+    #site-header nav a{
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        display: inline-block;
+        border: 2px solid black;
+    }
+
+
+    #site-header nav a:hover{
+        border-bottom: 2px solid red;
+    }
+
+
+    #site-header nav ul>li>ul{
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    #site-header nav ul>li>ul a{
+        color: black;
+        border: 2px solid white;
+    }
+
+
+    #site-header nav ul>li>ul{
+        display: none;
+    }
+
+
+    #site-header nav ul>li:nth-child(3):hover>ul{
+        display: block;
+    }
+
+
+
+}

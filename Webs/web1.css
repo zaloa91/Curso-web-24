@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Poppins";
+    color: blueviolet;
+
+}
+
+body {
+    background-color: pink;
+}
+
+#site-main {
+    font-size: 14px;
+
+}
+
+nav {
+    background-color: pink;
+
+}
+
+.primerdiv {
+    background-color: pink;
+    padding: 10px;
+}
+
+#navegacion ul li {
+    padding: 10px;
+
+}
+
+#navegacion ul li a {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+#navegacion ul li a:hover {
+    background-color: white;
+    color: fuchsia;
+
+}
+
+#site-header .primerdiv i {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    color: rgb(255, 0, 76);
+
+}
+
+#navegacion ul li ul {
+    display: none;
+
+}
+
+#navegacion ul li:hover ul {
+    display: block;
+}
+
+#site-header .primerdiv {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+
+.primerdiv a {
+    color: rgb(243, 110, 154);
+    font-size: 1.5rem;
+}
+
+.primerdiv a span {
+    color: rgb(244, 154, 169);
+    font-size: 2rem;
+}
+
+@media (min-width: 1024px) {
+
+
+    .primerdiv i {
+        display: none;
+
+    }
+
+
+    #site-header {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    #site-header,
+    #navegacion {
+        background-color: inherit;
+
+    }
+
+    #site-header ul {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    #navegacion a:hover {
+        background-color: inherit;
+    }
+
+    #navegacion ul>li>ul {
+        position: absolute;
+        background-color: violet;
+        top: 100%;
+        right: 0;
+        width: calc(100% - 100px);
+        padding: 50px;
+        flex-wrap: wrap;
+
+    }
+
+    #navegacion ul li:hover ul {
+        display: flex;
+    }
+
+    #navegacion ul>li>ul li{
+        width: 30%;
+    }
+}

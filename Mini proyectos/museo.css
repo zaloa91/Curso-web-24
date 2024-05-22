@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: "Playfair Display";
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(https://images.pexels.com/photos/277054/pexels-photo-277054.jpeg);
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+}
+
+header>div {
+    width: 100%;
+    z-index: 2;
+}
+
+header div.mascara {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+header div.superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div.inferior {
+    text-align: center;
+    padding: 225px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    display: block;
+    position: relative;
+}
+
+header nav.izquierda div.logo {
+    border: 1px solid white;
+    margin-right: 5px;
+}
+
+header nav.izquierda div.logo a {
+    font-size: 2rem;
+    margin: 3px;
+    padding: 0 5px;
+    font-family: Teachers;
+}
+
+/* header h1::before{
+    content: "";
+    margin-bottom: 1px solid white;
+    width: 120px;
+    height: 1px;
+} */
+header .inferior h1 {
+    margin: 0 50px;
+    font-size: 3rem;
+}
+
+header .inferior .linea {
+    width: 150px;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.4);
+}
+
+header nav.izquierda a span {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 1px;
+    animation-delay: 0.5s;
+    background-color: pink;
+
+}
+
+header nav.izquierda a:hover span {
+    animation: btn-anim3 .25s linear forwards;
+
+
+}
+
+@keyframes btn-anim3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+header>div {
+    width: 100%;
+    z-index: 2;
+}
+
+header div.mascara {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1800px;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.gallery div.imagen {
+    width: 25%;
+    height: 30%;
+    background-color: #333;
+    border: 1px solid white;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.gallery .imagen:first-child {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/p6-img-1.jpg);
+
+}
+
+.gallery .imagen:nth-child(2) {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/p6-img-2.jpg);
+
+}
+
+.gallery .imagen:nth-child(3) {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/p6-img-3.jpg);
+
+}
+
+.gallery .imagen:nth-child(4) {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/p6-img-4.jpg);
+}
+
+.gallery .imagen:nth-child(5) {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/p6-img-5.jpg);
+}
+
+
+.gallery .imagen:nth-child(6) {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/p6-img-6.jpg);
+}
+
+.gallery .imagen:nth-child(7) {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/p6-img-7.jpg);
+}
+
+.gallery .imagen:nth-child(8) {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/p6-img-8.jpg);
+}
+
+.gallery .imagen:last-child {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/p6-img-9.jpg);
+}
+
+div.imagen div.sumar {
+    width: 100%;
+    height: 0%;
+    background-color: white;
+    position: relative;
+    transition: all .5s;
+   
+}
+
+
+div.imagen div.sumar p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: chocolate;
+    font-size: 4rem;
+    display: none;
+}
+
+div.imagen:hover > div.sumar{
+    height: 100%;
+}
+
+div.imagen:hover>div.sumar >p {
+    display: block;
+}

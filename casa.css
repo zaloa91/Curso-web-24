@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Poppins";
+}
+
+body {
+    background-image: url(https://i.ebayimg.com/images/g/n8IAAOSwltRkNCSF/s-l1200.jpg);
+
+}
+
+#site-header {
+
+    height: 50px;
+    position: relative;
+}
+
+#site-header .grande {
+    width: 100%;
+
+    background-image: url(/IMG/wallapaperr.jpg);
+}
+
+#navegacion ul {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(pink, purple, black);
+}
+
+
+#navegacion ul li {
+    margin: 20px;
+}
+
+#navegacion ul li a {
+    color: white;
+
+}
+
+#site-header #navegacion i {
+    margin-left: 5px;
+    color: pink;
+    translate: 0px;
+    opacity: 1;
+}
+
+#site-header #navegacion a:hover {
+    font-weight: bold;
+    color: black;
+    transition: color 0.8s;
+    background: hsla(306, 50%, 50%, 0.416);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 45px 2px rgb(255, 0, 204);
+}
+
+#site-header #navegacion a:hover i {
+    transition: translate 1s, opacity 1s;
+    translate: 40px;
+    opacity: 0;
+}
+
+.user {
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    top: 50%;
+    right: 20px;
+    border-radius: 20px;
+
+}
+
+.profile {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    top: 57%;
+    right: 60px;
+
+}
+
+
+/* MAIN */
+
+
+.principal {
+
+    width: 500px;
+    height: 400px;
+    border-radius: 10%;
+    background-color: blueviolet;
+
+}

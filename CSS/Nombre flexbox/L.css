@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.primeroo{
+    background-color: pink;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.primeroo div{
+ 
+}
