@@ -44,6 +44,7 @@
         }
 
         .contenedor button:active {
+
             box-shadow: none;
             transform: translateY(2px);
         }
@@ -54,6 +55,12 @@
             padding: 20px;
             border-radius: 5px;
         }
+
+        .inactivo{
+            background-color: grey;
+            box-shadow: none;
+            transform: translateY(2px);
+        }
     </style>
 
 </head>
@@ -63,8 +70,8 @@
         <h1>Aforo-pub</h1>
         
 
-        <button id="boton-sumar" onclick="sumar()">+</button>
-        <button id="boton-restar" onclick="restar()">-</button>
+        <button class="boton" id="boton-sumar" onclick="sumar()">+</button>
+        <button class="boton" id="boton-restar" onclick="restar()">-</button>
 
         <p>Total de personas:</p>
 

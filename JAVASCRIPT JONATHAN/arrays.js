@@ -47,5 +47,5 @@ console.log(listaAlumnas.length)
 console.log(listaAlumnas[0]);
 //acceder al ultimo elemento[]
 console.log(listaAlumnas [listaAlumnas.length - 1]);
-//dentro de cocrchetes: listaAlumnas.length = 2
+//dentro de corchetes: listaAlumnas.length = 2
 //luego le restamos para que el numero coincida con el ultimo indicce que en este caso seria 1
